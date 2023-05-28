@@ -7,12 +7,12 @@ class ArticleController {
 
     async create(req, res,next) {
         try{
-            const {name,content,sectionId,themeId} = req.body
+            const {name,content} = req.body
             const {img} = req.files
             let fileName = uuid.v4() + ".jpg"
             img.mv(path.resolve(__dirname, '..','static',fileName))
             
-            const article = await Article.create({name,content,sectionId,themeId,img: fileName})
+            const article = await Article.create({name,content,img: fileName})
 
             return res.json(article)
         } catch(e){
