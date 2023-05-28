@@ -1,0 +1,95 @@
+* {
+    font-family: 'Comic Sans MS';
+    background-color: #333;
+    color: #fafafa;
+}
+
+.header {
+    border-bottom: 2px solid silver;
+    padding: 1%;
+    width: 100%;
+    background-color: #211d1d;
+    float: left;
+}
+.ahref{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fafafa;
+    background-color: #211d1d;
+}
+.ahref:hover{
+    color: #4e4d4d;
+    text-decoration: none;
+    transition: all.6s ease;
+}
+.right{
+    float: right;
+    margin-left: 15px;
+    background-color: #211d1d;
+}
+.Article{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Arname{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.arName{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Content{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+}
+.arItem{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top: 15px;
+    color: #333;
+    background-color: #fafafa;
+    width: 100%;
+}
+.button:hover{
+    background-color: #4e4d4d;
+    border-color: #4e4d4d;
+}
+.arList {
+    cursor: pointer;
+    margin-top: 50px;
+}
+.form{
+    margin-top: 20px;
+}
+.reg{
+    text-align: center;
+    font-size: 50px;
+}
+
+.link{
+    margin-top: 20px;
+    color: #fafafa;
+}
+.modalfooter{
+    background-color: #333;
+}
+.image{
+    height: 400px;
+}
+.headbutton{
+    font-size: 20px;
+}
+.imagearticle{
+    height: 400px;
+    margin-top: 50px;
+}
